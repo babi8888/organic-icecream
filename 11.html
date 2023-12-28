@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!doctype html>
+<html lang="en">
+  <head>
+     Required meta tags 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     Bootstrap CSS 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/51d281f74f.js" crossorigin="anonymous"></script>
+    
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+    
+    Optional JavaScript; choose one of the two! 
+
+     Option 1: jQuery and Bootstrap Bundle (includes Popper) 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    Option 2: Separate Popper and Bootstrap JS 
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>website</title>
+	
+	<style>
+    /*.b{
+      margin: auto;
+    }*/
+		*{
+/*			margin: 0px;*/
+		}
+		ul{
+			list-style: none;
+			padding: 0px;
+
+		}
+		ul li{
+			float:left;
+			width:182px;
+			height: 75px;
+			line-height: 65px;
+			text-align: center;
+			background: hotpink;
+			border-radius: 10px;
+			margin-top:0px;
+		}
+		ul li a{
+			text-decoration: none;
+			background:black;
+			font-size: 20px;
+			display: block;
+			border-radius: 10px;
+			color: yellowgreen;
+/*			float: right;*/
+		}
+		ul li a:hover{
+			background: skyblue;
+			border-radius: 10px;
+			text-decoration: none;
+		
+		}
+		
+		ul ul{
+			position: relative;
+			display: none;
+		}
+		ul li:hover>ul{
+			display: block;
+		}
+		ul ul ul{
+			margin-left: 182px;
+			top:-75px;
+		}
+		#search{
+			width: 90px;
+			height: 40px;
+			border-radius: 10px;
+			float: right;
+			background: hotpink;
+			margin: 20px;
+			font-size: 20px;
+		}
+    
+		.box1{
+			float: left;
+margin-top: -22px;
+
+		}
+		.box5{
+/*			background: radial-gradient(pink,red);*/
+			text-align: center;
+      position: relative;
+    
+      z-index: -8;
+		}
+    html{
+      scroll-behavior: smooth;
+    }
+nav{
+      position:sticky;
+      top:0px;
+
+    }
+    .box7{
+      float: left;
+/*      text-align: center;*/
+      margin-left: 100px;
+
+    }
+    .box8{
+      float: right;
+      margin-right: 100px;
+/*     height:300px;*/
+      width:600px;
+      padding:80px;
+/*      margin-bottom: 70px;*/
+    }
+    #about{
+/*      background: green;*/
+      color: white;
+/*      width: 1500px;*/
+      font-size: 20px;
+    }
+    .content{
+      background: lightpink;
+    }
+    .b{
+      margin: auto;
+    }
+    .b1{
+     
+    padding:15px;
+   display:inline-block;
+    margin: auto;
+    margin-top:10px;
+    text-align:center;
+    line-height: 50px;
+      
+    }
+    .b2{
+      
+    padding:15px;
+   display:inline-block;
+    margin: auto;
+    margin-top:10px;
+    text-align:center;
+    line-height: 50px;
+      
+    }
+    .b3{
+     
+    padding:15px;
+    display:inline-block;
+    margin: auto;
+    margin-top:10px;
+    text-align:center;
+     line-height: 50px;
+      
+    }
+    .b4{
+      
+    padding:15px;
+    display:inline-block;
+    margin: auto;
+    margin-top:10px;
+    text-align:center;
+       line-height: 50px;
+    }
+    .b5{
+      
+    padding:15px;
+    display:inline-block;
+     margin: auto;
+   margin-top:10px;
+    text-align:center;
+       line-height: 50px;
+    }
+    .b6{
+     padding:15px;
+    display:inline-block;
+    margin: auto;
+     margin-top:10px;
+    text-align:center;
+       line-height: 50px;
+    }
+    .b7{
+     
+    padding:15px;
+    display:inline-block;
+     margin: auto;
+    margin-top:10px;
+       text-align:center;
+       line-height: 50px;
+      
+    }
+    .b8{
+    padding:15px;
+    display:inline-block;
+    margin:auto;
+   text-align:center;
+       line-height: 50px;
+
+    }
+    .content1{
+      border: 2px solid whitesmoke;
+      height: 100px;
+      background: #BBD6B8;
+      position: sticky;
+      top: 0px;
+
+    }
+    .b9{
+      text-align: center;
+      color: yellowgreen;
+
+    }
+    .b10{
+      text-align: center;
+      border: 2px solid blue;
+     width: 100%;
+     margin: auto;
+    }
+
+	</style>
+</head>
+<body>
+  <div class="content1">
+   <nav align="center">  
+	 <div class="box1">
+		<img src="image/ice-cream remove.png" height="100">
+	</div>  
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Ours Menu">Menu&nbsp;<i class="fa-sharp fa-solid fa-caret-down"></i></a>
+				<ul>
+					<li><a href="#">milk shek</a></li>
+					<li><a href="#">betterscothch</a></li>
+					<li><a href="#">stobbery&nbsp;<i class="fa-sharp fa-light fa-right"></i></a>
+						<ul>
+							<li><a href="#">lichi</a></li>
+							<li><a href="#">red lichi</a></li>
+							<li><a href="#">venilla</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#"><b>iCREAM</b></a></li>
+			<li><a href="#Gallery">Gallery</a></li>
+			<li><a href="#">Reviews</a></li>
+			<li><a href="#Order">Order</a></li>
+      <div class="search">
+       <input text="search" id="search"placeholder="search"&nbsp;> 
+     </div>
+		</ul>
+   </nav> 
+ </div>
+
+		<!-- carousel -->
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel"style="z-index:-1">
+  <!-- <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/icream24.avif" class="d-block w-100" alt="..." height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Treditional Ice-Cream</h1>
+        <p>Ice-cream is very delicious.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/ice-cream7.jpg" class="d-block w-100" alt="..."height="630">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Treditional Ice-Cream</h1>
+        <p>Ice-cream is very delicious.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/icream20.jpg" class="d-block w-100" alt="..."height="630">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Treditional Ice-Cream</h1>
+        <p>Ice-cream is very delicious.</p>
+      </div>
+    </div>
+   </div> 
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+<br/><br/>
+<div class="box5">
+	<div id="Ours Menu">
+    <h1>Ours Menu</h1>
+</div>
+<div class="album py-5 bg-light";>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream1.jpg" height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream2.jpg"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream3.jpg"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream4.jfif"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream14.jfif"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream15.jfif"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream1.jpg"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream2.jpg"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          	<img src="image/ice-cream3.jpg"height="225">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <br/><br/>
+   <div id="about" style="color:hotpink;text-align: center;width:320px;margin:auto;padding:15px;box-sizing: border-box";>
+
+  <h2>About Us</h2>
+
+  </div> 
+  <div class="box7">
+    <img src="image/ice-cream17.jfif" height="400" >
+  </div>
+  <div class="box8">
+    <h2>Organic Ice-Cream</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div> 
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div id="Gallery" style="color:#89375F;text-align: center;width:320px;margin:auto;padding:15px;box-sizing: border-box">
+
+  <h2>Gallery</h2>
+
+  </div> 
+   <div class="content">
+<!-- <div class="b">
+    <marque>Gallery</marque>
+  </div> -->
+  <div class="b1">
+  <img src="image/icream1.jfif"height="320";width=200>
+  <div class="box3"><i>Real Strawberry Ice Cream</i></div>
+  </div>
+  <div class="b2">
+  <img src="image/ice-cream16.jfif"height="320";width=200>
+  <div class="box3"><i>Real Vanilla Ice Cream</i></div>
+  </div>
+  <div class="b3">
+  <img src="image/icream8.jpg"height="320";width=200>
+  <div class="box3"><i>Real Blueberry Ice cream</i></div>
+  </div>
+  <div class="b4">
+  <img src="image/icream7.jfif"height="320";width=200>
+  <div class="box3"><i>Real Lemon Ice Cream</i></div>
+  </div>
+  <div class="b5">
+  <img src="image/icream1.jfif"height="320";>
+  <div class="box3"><i>Real Plum Ice cream</i></div>
+  </div>
+  <div class="b6">
+  <img src="image/ice-cream16.jfif"height="320";>
+  <div class="box3"><i>Real Raspberry Ice Cream</i></div>
+  </div>
+  <div class="b7">
+  <img src="image/icream8.jpg"height="320";>
+  <div class="box3"><i>Real Bettrescotch Ice Cream</i></div>
+  </div>
+  <div class="b8">
+  <img src="image/icream7.jfif"height="320";>
+  <div class="box3"><i>Real none Ice Cream</i></div>
+  </div>
+</div>
+<br/><br/>
+<div class="b9" id="Order">
+<h2>Order Now</h2>
+</div>
+<div class="b10"><center>
+    <fieldset style="width:100%; background:#C0DBEA";>
+      <legend style="colour:crimson"> </legend>
+<form action="" method="">
+
+      <label for="fname"><br>Full Name</label>
+      <label style="margin-left:200px";for="lname">Phone Number</label> 
+
+      <br/><br/>
+
+      <input style=border-radius:5px; type="text" id="name" placeholder="Enter Full Name">
+      <input style=border-radius:5px; type="text" id="lname"placeholder="Enter Phone Number">
+
+      <br/><br/>
+
+      <label for="fname"><br>Ice Cream Name</label>
+      <label style="margin-left:200px";for="lname">Quantity</label> 
+
+      <br/><br/>
+
+      <input style=border-radius:5px; type="text" id="name" placeholder="Ice Cream You Want">
+      <input style=border-radius:5px; type="text" id="lname"placeholder="How Many You Want">
+
+      <br/><br/>
+
+      
+        <label for="Date"><br>Date</label>
+      <label style="margin-left:200px";for="lname">Message</label> 
+
+      <br/><br/>
+
+      <input type=date id="date">
+      <input style=border-radius:5px; type="text" id="lname"placeholder="message">
+
+      <br/><br/>
+
+      <label for="fname"><br>Your Address</label>
+      <label style="margin-left:200px";for="lname">Location</label> 
+
+      <br/><br/>
+
+      <input style=border-radius:5px; type="text" id="name" placeholder="Address">
+      <input style=border-radius:5px; type="text" id="lname"placeholder="Location">
+
+      <br/><br/>
+      <input type="submit" onclick="alerts('Thanks for your detail')" value="submit">
+        <input type="reset" value="reset">
+
+</form>
+</fieldset>
+</center>
+</div> 
+</body>
+
+</html>
